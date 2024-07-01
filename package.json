@@ -1,0 +1,33 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "Hysalim packages developement tools",
+  "type": "module",
+  "scripts": {
+    "format": "prettier **/*.{js,json,md,ts} --write",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "dev": "turbo run dev",
+    "build": "turbo run type-checked build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hysalim/tools.git"
+  },
+  "author": "Hysalim",
+  "license": "MIT",
+  "packageManager": "pnpm@9.4.0",
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "eslint": "^9.6.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "globals": "^15.7.0",
+    "prettier": "^3.3.2",
+    "turbo": "^2.0.6"
+  }
+}

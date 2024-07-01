@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "clinyong.vscode-css-modules",
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "phoenisx.cssvar",
+    "pkief.material-icon-theme",
+    "somewhatstationery.some-sass"
+  ]
+}

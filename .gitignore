@@ -1,0 +1,14 @@
+# compilated outputs
+dist/**
+**/dist/**
+build/**
+
+# depedencies
+node_modules
+
+# misc
+coverage
+pnpm-lock.yaml
+
+# turbo
+.turbo
