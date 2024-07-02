@@ -1,0 +1,27 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "Hysalim packages developement tools",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint **/*.ts --fix",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "type-checked": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hysalim/tools.git",
+    "directory": "packages/shared"
+  },
+  "author": "Hysalim",
+  "license": "MIT",
+  "dependencies": {
+    "colorize-template": "^1.0.0",
+    "picocolors": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vitest": "^1.6.0"
+  }
+}
