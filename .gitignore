@@ -1,0 +1,12 @@
+# compilated outputs
+dist/
+
+# depedencies
+node_modules/
+
+# misc
+coverage
+pnpm-lock.yaml
+
+# turbo
+.turbo
