@@ -1,0 +1,23 @@
+{
+  "name": "@hysalim/tools",
+  "version": "1.0.0",
+  "description": "Hysalim tools monorepo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hysalim/tools.git"
+  },
+  "author": {
+    "name": "Hysalim",
+    "email": "hysalimapp@gmail.com",
+    "url": "https://github.com/hysalim"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@9.14.2",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "prettier": "^3.3.3"
+  }
+}
